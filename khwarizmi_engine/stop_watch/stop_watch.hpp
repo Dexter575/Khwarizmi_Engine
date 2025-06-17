@@ -58,7 +58,7 @@ public:
     }
 };
 
-using StopWatch = StopWatchTemplate<std::chrono::system_clock>;
+using StopWatch      = StopWatchTemplate<std::chrono::system_clock>;
 using StopWatchHiRes = StopWatchTemplate<std::chrono::high_resolution_clock>;
 
-};
+}; // namespace ke
