@@ -52,6 +52,7 @@ message(STATUS "LibKE = ${LibKE}")
 # ----------------------------------------------------
 add_library(${LibKE}
     scene/scene.hpp
+    parser/ExpressionParser.h
     # Add any .cpp files here too!
 )
 

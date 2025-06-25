@@ -1,1 +1,1 @@
-./bin/khwarizmi_engine
+./bin/khwarizmi_engine_app
